@@ -134,9 +134,17 @@ This is a REST API to manage items
 To use this API you need the following:
 
 node.js installed
-my repository cloned
+my repository cloned/forked from git hub
 
-open your terminal and cd wk10
-enter node server.js to run the server
+open your terminal and cd into wk10
+enter node server.js to run the server or do npm run dev
 
-then go into the browser and enter http://localhost:3000/items
+To GET go into the browser and in the URL line enter http://localhost:3000/items
+
+To ADD go into the browser and in the URL line enter http://localhost:3000/items with your JSON body containing name and price elements
+
+To GET a specific item go into the browser and in the URL line enter http://localhost:3000/items/:id with your JSON body containing name and price elements and your ID in the :id field 
+
+To UPDATE a specific item go into the browser and in the URL line enter http://localhost:3000/items/:id with your JSON body containing name and price elements and your UPDATED ID in the :id field 
+
+To DELETE an item  go into the browser and in the URL line enter http://localhost:3000/items/:id with your ID deleted
